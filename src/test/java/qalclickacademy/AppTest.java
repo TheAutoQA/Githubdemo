@@ -18,6 +18,8 @@ public class AppTest
     public AppTest( String testName )
     {
         super( testName );
+        System.out.println("This is the added line1");
+        System.out.println("This is the added line2");
     }
 
     /**
