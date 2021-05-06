@@ -14,5 +14,10 @@ public class APITest {
 			System.out.println("This is committing to new APITest");
 		
 	}
+		public void branchA()
+		{
+			System.out.println("Step added to BranchA");
+		}
+		
 
 }

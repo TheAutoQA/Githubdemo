@@ -27,7 +27,10 @@ public class AppTest
      */
     public static Test suite()
     {
-        return new TestSuite( AppTest.class );
+    	System.out.println("Step1 added to Testsuite method");
+    	System.out.println("Step2 added to Testsuite method");
+    	System.out.println("Step3 added to Testsuite method");
+    	return new TestSuite( AppTest.class );
     }
 
     /**
@@ -36,5 +39,9 @@ public class AppTest
     public void testApp()
     {
         assertTrue( true );
+    }
+    public static void demoA()
+    {
+    	System.out.println("Step added to DemoA method");
     }
 }
