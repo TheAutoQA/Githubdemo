@@ -44,4 +44,9 @@ public class AppTest
     {
     	System.out.println("Step added to DemoA method");
     }
+
+    public static void demob()
+    {
+    	System.out.println("Step added to DemoB method");
+    }
 }

@@ -19,5 +19,9 @@ public class APITest {
 			System.out.println("Step added to BranchA");
 		}
 		
+		public void branchb()
+		{
+			System.out.println("Step added to Branchb");
+		}
 
 }
